@@ -11,4 +11,3 @@ title: Thompson Media - Social Marketing, Graphic Design & Website Development
         <h1>Social Marketing | Graphic Design | Website Development</h1>
       </div>
   </div>
-</section>
