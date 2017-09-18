@@ -4,13 +4,27 @@
 @import "framework/icons";
 
 #intro {
+  display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
   position: relative;
+  height: 100%;
   padding-top: 8%;
   padding-bottom: 8%;
   background-color: $primary-color;
   background-image: url(../img/bg-placeholder.jpg);
   background-size: cover;
   background-position: center center;
+}
+
+#intro > .container {
+  display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  -ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
 }
 
 #intro * {
